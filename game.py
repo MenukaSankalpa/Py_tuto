@@ -47,6 +47,14 @@ if answer == 'yes':
 else:
     print("Like Girl!") 
     score=score-1
+    
+answer=input('Is AI good or bad?   ').lower()
+if answer == 'yes':
+    print("Correct!")
+    score+=1
+else:
+    print("Wrong!")
+    score=score-1    
  
 print("You win " + str(score) + " questions!")
 print("You win " + str((score/5)*100) + " % ")    
