@@ -48,4 +48,6 @@ if answer.lower() == "virus":
 else:
     print("Incorrect!")     
 
-print("You Got " + str(score) + "questions correct! ")         
+print("You Got " + str(score) + "questions correct! ")
+print("You Got " + str((score/5)*100) + "%. ")
+         
