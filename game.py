@@ -23,7 +23,7 @@ if answer == 'fire':
 else:
     print("Wrong!") 
     score=score-1       
-  
+      
 answer=input('Who is the precident now? ').lower()
 if answer == 'anura':
     print("Correct!")
